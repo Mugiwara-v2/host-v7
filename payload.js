@@ -125,6 +125,14 @@ exec_type = "payload";
 toogle_payload();
 }
 
+function load_rdr2ar129(){
+msgs.innerHTML="Loading Read Dead Redemption II ArabicGuy 1.29 ... Please Wait !!!";
+LoadedMSG="Read Dead Redemption II ArabicGuy 1.29 Loaded";
+PLfile = "RDR2ArabicGuy.bin";
+exec_type = "payload";
+toogle_payload();
+}
+
 function load_dumper(){
 msgs.innerHTML="Loading Jailbreak + Dumper... Please Wait !!!";
 LoadedMSG="Dumper Loaded... Press OK Now !!!";
@@ -249,14 +257,6 @@ function load_linux4(){
 msgs.innerHTML="Loading Jailbreak + Linux Loader... Please Wait !!!";
 LoadedMSG="Linux Loader -5gb Loaded... Press OK Now !!!";
 PLfile = "linuxloader5gb.bin";
-exec_type = "payload";
-toogle_payload();
-}
-
-function load_idu(){
-msgs.innerHTML="Loading Jailbreak + Exit idu... Please Wait !!!";
-LoadedMSG="Exit idu Loaded... Press OK Now !!!";
-PLfile = "exitidu.bin";
 exec_type = "payload";
 toogle_payload();
 }
