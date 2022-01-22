@@ -14,6 +14,7 @@ payload.js
 kexploit.js
 rop.js
 int64.js
+84ciss.manifest
 patch.s
 webrte.bin
 restore.bin
@@ -26,7 +27,7 @@ linuxloader3gb.bin
 linuxloader4gb.bin
 linuxloader5gb.bin
 exitidu.bin
-henplatinum1b.bin
+henplatinum14b.bin
 historyblocker.bin
 beefqueefmod133.bin
 BeefQueefMod134.bin
@@ -42,11 +43,17 @@ disableupdates.bin
 gamedumper.bin
 backup.bin
 app2usb.bin
+henplatinum1b.bin
+RDR2ArabicGuy.bin
 img\2.jpg
 img\3.jpg
 img\4.jpg
 img\5.jpg
 img\1.jpg
+img\6.jpg
+img\7.jpg
+img\8.jpg
+img\9.jpg
 
 NETWORK: 
 * 
