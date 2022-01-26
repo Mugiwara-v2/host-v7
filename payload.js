@@ -61,6 +61,14 @@ exec_type = "payload";
 toogle_payload();
 }
 
+function load_wildemodz13813(){
+msgs.innerHTML="Loading Jailbreak + Gta V wildemodz Mod Menu 1.38 1.3... Please Wait !!!";
+LoadedMSG="Gta V wildemodz 1.38 Mod Menu 1.3 Loaded... Press OK Now !!!";
+PLfile = "WildeModz1.38-1.3.bin";
+exec_type = "payload";
+toogle_payload();
+}
+
 function load_expulsion138(){
 msgs.innerHTML="Loading Jailbreak + Gta V Expulsion Mod Menu 1.38 v3... Please Wait !!!";
 LoadedMSG="Gta V Expulsion Mod Menu 1.38 v3 Loaded... Press OK Now !!!";
