@@ -101,6 +101,14 @@ exec_type = "payload";
 toogle_payload();
 }
 
+function load_gtabeef138d(){
+msgs.innerHTML="Loading Jailbreak + Gta Beefqueef Mod Menu 1.38d... Please Wait !!!";
+LoadedMSG="Beefqueef Mod Menu 1.38d Loaded... Press OK Now !!!";
+PLfile = "BeefQueefMod138d.bin";
+exec_type = "payload";
+toogle_payload();
+}
+
 function load_gta132(){
 msgs.innerHTML="Loading Jailbreak + Gta Arabic Mod Menu 1.32... Please Wait !!!";
 LoadedMSG="Arabic Mod Menu 1.32 Loaded... Press OK Now !!!";
