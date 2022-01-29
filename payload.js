@@ -1,22 +1,3 @@
-
-var exec_type = "";
-
-function toogle_payload(){
-var req = new XMLHttpRequest();
-req.responseType = "arraybuffer";
-req.open("GET",PLfile,true);
-req.send();
-req.onreadystatechange=function(){
-if (req.readyState == 4){
-  var tmp0 = new Uint8Array(req.response.byteLength);
-  tmp0.set(new Uint8Array(req.response), 0);
-  var payload = new Uint32Array(tmp0);
-  the_payload = payload;
-  setTimeout(poc, 1500);
-  }
-};
-}
-
 function awaitpl() {
 window.msgs.innerHTML="<h1 style=color:#87FF33>"+LoadedMSG+"</h1>";
 }
@@ -65,6 +46,14 @@ function load_wildemodz13813(){
 msgs.innerHTML="Loading Jailbreak + Gta V wildemodz Mod Menu 1.38 1.3... Please Wait !!!";
 LoadedMSG="Gta V wildemodz 1.38 Mod Menu 1.3 Loaded... Press OK Now !!!";
 PLfile = "WildeModz1.38-1.3.bin";
+exec_type = "payload";
+toogle_payload();
+}
+
+function load_wildemodz13814(){
+msgs.innerHTML="Loading Jailbreak + Gta V wildemodz Mod Menu 1.38 1.4... Please Wait !!!";
+LoadedMSG="Gta V wildemodz 1.38 Mod Menu 1.4 Loaded... Press OK Now !!!";
+PLfile = "WildeModz1.38-1.4.bin";
 exec_type = "payload";
 toogle_payload();
 }
@@ -275,4 +264,22 @@ LoadedMSG="Linux Loader -5gb Loaded... Press OK Now !!!";
 PLfile = "linuxloader5gb.bin";
 exec_type = "payload";
 toogle_payload();
+}
+
+var exec_type = "";
+
+function toogle_payload(){
+var req = new XMLHttpRequest();
+req.responseType = "arraybuffer";
+req.open("GET",PLfile,true);
+req.send();
+req.onreadystatechange=function(){
+if (req.readyState == 4){
+  var tmp0 = new Uint8Array(req.response.byteLength);
+  tmp0.set(new Uint8Array(req.response), 0);
+  var payload = new Uint32Array(tmp0);
+  the_payload = payload;
+  setTimeout(poc, 1500);
+  }
+};
 }
